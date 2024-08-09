@@ -9,7 +9,7 @@
       <strong>1. Download and Import kotlin-settings.zip</strong>
     </a>
   </summary>
-  <img src="import_settings.png" alt="Alt text" />
+
 </details>
 
 <details>
