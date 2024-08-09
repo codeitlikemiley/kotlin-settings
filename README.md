@@ -7,6 +7,7 @@
   <summary>
     <strong>1. Download and Import kotlin-settings.zip</strong>
   </summary>
+  [kotlin-settings.zip](https://github.com/codeitlikemiley/kotlin-settings/blob/main/kotlin-settings.zip)
 
 </details>
 
