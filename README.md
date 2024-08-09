@@ -310,7 +310,7 @@ Note : This are all vim keys binded using .ideavimrc
 
 <details>
 <summary>
-<strong>Type Hinting, Quick Fixes</strong>
+<strong>Type Hinting, Quick Fixes, Formatting</strong>
 </summary>
 
 | Keyboard Shortcut                             | Description                          |
@@ -318,6 +318,7 @@ Note : This are all vim keys binded using .ideavimrc
 | <kbd>gp</kbd>                                 | Parameter Info                       |
 | <kbd>gt</kbd>                                 | Expression Type Info                 |
 | <kbd>CMD</kbd>+<kbd>.</kbd>                   | Show Context and Show Quick Fixes    |
+| <kbd>CMD</kbd>+<kbd>SHIFTT</kbd>+<kbd>I</kbd> | Reformat Code                        |
 | <kbd>OPT</kbd>+<kbd>SPACE</kbd>               | Insert Live Template                 |
 | <kbd>CMD</kbd>+<kbd>OPT</kbd>+<kbd>S</kbd>    | Surround with                        |
 
