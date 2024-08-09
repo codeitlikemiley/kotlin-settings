@@ -2,6 +2,9 @@
 
 > Better workflow , testing and debugging capability on your Kotlin Projects
 
+Note: (Hide) CMD + H and (Minimize) CMD + M should be remapped using macos keyboard settings
+
+> Karabiner elements is required for Hyper Keys and Custom Tab Key
 
 <details>
 
@@ -127,13 +130,13 @@ Mainly used for refactoring and documentation
 | Keyboard Shorcuts                            | Description                 |
 | -------------------------------------------- | --------------------------- |
 | <kbd>CMD</kbd>+<kbd>D</kbd>                  | Debug Context Configuration |
-| <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>S</kbd> | Stop                        |
-| <kbd>CMD</kbd>+<kbd>K</kbd>                  | Resume/Pause Program        |
 | <kbd>CMD</kbd>+<kbd>D</kbd>                  | Toggle Breakpoint           |
-| <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>L</kbd> | Smart Step Into             |
+| <kbd>CMD</kbd>+<kbd>K</kbd>                  | Resume/Pause Program        |
 | <kbd>CMD</kbd>+<kbd>L</kbd>                  | Step Into                   |
 | <kbd>CMD</kbd>+<kbd>H</kbd>                  | Step Out                    |
 | <kbd>CMD</kbd>+<kbd>J</kbd>                  | Step Over                   |
+| <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>S</kbd> | Stop                        |
+| <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>L</kbd> | Smart Step Into             |
 
 
 </details>
@@ -146,8 +149,8 @@ Mainly used for refactoring and documentation
 | Keyboard Shortcut                             | Description                        |
 | --------------------------------------------- | ---------------------------------- |
 | <kbd>OPT</kbd>+<kbd>E</kbd>                   | Tool Windows -> Problems           |
-| <kbd>]</kbd>+<kbd>E</kbd>                     | Go To Error                        |
-| <kbd>[</kbd>+<kbd>SHIFT</kbd>+<kbd>E</kbd>    | Go To Previous Error               |
+| <kbd>]</kbd>+<kbd>E</kbd> (vim)               | Go To Error                        |
+| <kbd>[</kbd>+<kbd>SHIFT</kbd>+<kbd>E</kbd> (vim) | Go To Previous Error               |
 | <kbd>TAB</kbd>+<kbd>E</kbd>                   | Error Description                  |
 
 Note: Tab is mapped to <kbd>CTRL</kbd>+<kbd>OPT</kbd>+<kbd>CMD</kbd> using karabiner elements
@@ -294,12 +297,12 @@ Note : This are all vim keys binded using .ideavimrc
 
 <details>
 <summary>
-<strong>Comments Folding</strong>
+<strong>Code Folding</strong>
 </summary>
 
 | Keyboard Shortcut                              | Description                |
 | ---------------------------------------------- | -------------------------- |
-| <kbd>CMD</kbd>+<kbd>'\\'</kbd>                  | FoldSelection / Remove Region  |
+| <kbd>CMD</kbd>+<kbd>\\</kbd>                  | FoldSelection / Remove Region  |
 
 
 </details>
