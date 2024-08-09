@@ -26,8 +26,6 @@
 <details>
   <summary>3. Load `Masterpowers` keymap</summary>
 
-![Alt text](keymap.png)
-
 </details>
 
 #### 4. [Download ideavimrc](https://github.com/codeitlikemiley/kotlin-settings/blob/main/.ideavimrc)
