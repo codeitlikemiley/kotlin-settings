@@ -5,9 +5,7 @@
 
 <details>
   <summary>
-    <a href="https://github.com/codeitlikemiley/kotlin-settings/raw/main/kotlin-settings.zip">
-      <strong>1. Download and Import kotlin-settings.zip</strong>
-    </a>
+    <strong>1. Download and Import kotlin-settings.zip</strong>
   </summary>
 
 </details>
