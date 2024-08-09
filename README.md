@@ -197,10 +197,10 @@ Note : This are all vim keys binded using .ideavimrc
 
 | Keyboard Shortcut                                       | Description                    |
 | ------------------------------------------------------- | ------------------------------ |
-| kbd>gd</kbd> (Vim)                                      | Go to Declaration or Usages    |
-| kbd>gD</kbd> (Vim)                                      | Go to TypeDeclaration          |
-| kbd>gu</kbd> (Vim)                                      | Find Usages                    |
-| kbd>gi</kbd> (Vim)                                      | Go to Implementations          |
+| <kbd>gd</kbd> (Vim)                                      | Go to Declaration or Usages    |
+| <kbd>gD</kbd> (Vim)                                      | Go to TypeDeclaration          |
+| <kbd>gu</kbd> (Vim)                                      | Find Usages                    |
+| <kbd>gi</kbd> (Vim)                                      | Go to Implementations          |
 | <kbd>CMD</kbd>+<kbd>U</kbd>                             | Go to Super Method             |
 | <kbd>SHIFT</kbd>+<kbd>K</kbd> (Vim)                     | Quick Definition               |
 | <kbd>F1</kbd>                                           | Quick Documentation            |
@@ -299,7 +299,7 @@ Note : This are all vim keys binded using .ideavimrc
 
 | Keyboard Shortcut                              | Description                |
 | ---------------------------------------------- | -------------------------- |
-| <kbd>CMD</kbd>+<kbd>'\'</kbd>                  | FoldSelection / Remove Region  |
+| <kbd>CMD</kbd>+<kbd>'\\'</kbd>                  | FoldSelection / Remove Region  |
 
 
 </details>
