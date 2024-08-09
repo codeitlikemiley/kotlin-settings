@@ -4,11 +4,12 @@
 
 
 <details>
+
   <summary>
-    <strong>1. Download and Import kotlin-settings.zip</strong>
+    <a href="https://github.com/codeitlikemiley/kotlin-settings/raw/main/kotlin-settings.zip">
+      <strong>1. Download and Import kotlin-settings.zip</strong>
+    </a>
   </summary>
-  [kotlin-settings.zip](https://github.com/codeitlikemiley/kotlin-settings/blob/928f8d9152877e624ef478d0dd4dc9f592ddb78c/kotlin-settings.zip)
-  
 
 </details>
 
