@@ -102,6 +102,7 @@ Mainly used for refactoring and documentation
 | <kbd>F2</kbd>  | Rename              |
 | <kbd>F3</kbd>  | Refactor this       |
 | <kbd>F4</kbd>  | Replace    |
+| <kbd>F5</kbd>  | Load Changes    |
 | <kbd>SHIFT</kbd>+<kbd>F4</kbd>  | Replace in Files |
 
 
