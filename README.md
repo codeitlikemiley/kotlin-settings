@@ -100,8 +100,7 @@ Mainly used for refactoring and documentation
 | <kbd>F3</kbd>  | Refactor this       |
 | <kbd>F4</kbd>  | Replace    |
 | <kbd>SHIFT</kbd>+<kbd>F4</kbd>  | Replace in Files |
-| <kbd>F5</kbd>  | Refactor: Copy      |
-| <kbd>F6</kbd>  | Refactor: Move      |
+
 
 </details>
 
