@@ -360,7 +360,7 @@ Note : This are all vim keys binded using .ideavimrc
 | <kbd>OPT</kbd>+<kbd>SPACE</kbd>               | Insert Live Template                 |
 | <kbd>OPT</kbd>+<kbd>W</kbd>                   | Surround with                        |
 | <kbd>CMD</kbd>+<kbd>K</kbd>                   | Code Generate                        |
-| <kbd>CMD</kbd>+<kbd>K</kbd>                   | Complete Current Statement           |
+| <kbd>CMD</kbd>+<kbd>L</kbd>                   | Complete Current Statement           |
 
 </details>
 
