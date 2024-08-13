@@ -168,7 +168,7 @@ Mainly used for refactoring and documentation
 | --------------------------------------------- | ---------------------------------- |
 | <kbd>OPT</kbd>+<kbd>P</kbd>                   | Tool Windows -> Problems           |
 | <kbd>]</kbd>+<kbd>E</kbd> (vim)               | Go To Error                        |
-| <kbd>[</kbd>+<kbd>SHIFT</kbd>+<kbd>E</kbd> (vim) | Go To Previous Error               |
+| <kbd>[</kbd>+<kbd>E</kbd> (vim)               | Go To Previous Error               |
 | <kbd>TAB</kbd>+<kbd>E</kbd>                   | Error Description                  |
 
 Note: Tab is mapped to <kbd>CTRL</kbd>+<kbd>OPT</kbd>+<kbd>CMD</kbd> using karabiner elements
