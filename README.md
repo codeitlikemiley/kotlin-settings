@@ -382,6 +382,20 @@ Note : This are all vim keys binded using .ideavimrc
 </details>
 
 
+<details>
+<summary>
+<strong>Git</strong>
+</summary>
+
+| Keyboard Shortcut                             | Description                  |
+| --------------------------------------------- | ---------------------------- |
+| <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>A</kbd>  | Add to VCS                   |
+| <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>U</kbd>  | Rollback                     |
+| <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>Y</kbd>  | Show History                 |
+
+</details>
+
+
 
 ## Customizing IdeaVim Keys
 
