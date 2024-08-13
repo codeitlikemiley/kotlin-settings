@@ -38,6 +38,8 @@ Note: (Hide) CMD + H and (Minimize) CMD + M should be remapped using macos keybo
 
 > Move the Downloaded file to your Home Directory `~/.ideavimrc`
 
+
+
 #### 5. Learn The Keymap The Easy Way
 
 <details>
@@ -65,7 +67,9 @@ Note: (Hide) CMD + H and (Minimize) CMD + M should be remapped using macos keybo
 | <kbd>CMD</kbd>+<kbd>F12</kbd>               | Notifications                    |
 | <kbd>CMD</kbd>+<kbd>F11</kbd>               | Gradle                           |
 | <kbd>CMD</kbd>+<kbd>F10</kbd>               | Key Promoter X                   |
-
+| <kbd>CMD</kbd>+<kbd>F9</kbd>                | Device Manager                   |
+| <kbd>CMD</kbd>+<kbd>F8</kbd>                | Running Devices                  |
+| <kbd>CMD</kbd>+<kbd>F7</kbd>                | Device Explorer                  |
 
 </details>
 
@@ -84,6 +88,7 @@ Note: (Hide) CMD + H and (Minimize) CMD + M should be remapped using macos keybo
 | <kbd>OPT</kbd>+<kbd>D</kbd>                    | Debug       |
 | <kbd>OPT</kbd>+<kbd>F</kbd>                    | Find        |
 | <kbd>OPT</kbd>+<kbd>R</kbd>                    | Run         |
+| <kbd>CMD</kbd>+<kbd>Y</kbd>                    | Logcat      |
 
 </details>
 
@@ -98,19 +103,18 @@ Mainly used for refactoring and documentation
 | Keyboard Shortcuts | Description     |
 | -------------- | ------------------- |
 | <kbd>F1</kbd>  | Quick Documentation |
-| <kbd>SHIFT</kbd>+<kbd>F1</kbd>  | Change Signature |
 | <kbd>F2</kbd>  | Rename              |
+| <kbd>SHIFT</kbd>+<kbd>F2</kbd>  | Copilot Chat |
 | <kbd>F3</kbd>  | Refactor this       |
-| <kbd>F4</kbd>  | Replace    |
+| <kbd>F4</kbd>  | Change Signature    |
 | <kbd>F5</kbd>  | Load Changes    |
-| <kbd>SHIFT</kbd>+<kbd>F4</kbd>  | Replace in Files |
 
 
 </details>
 
 <details>
 <summary>
-<strong>Rust App/Test</strong>
+<strong>Run App/Test</strong>
 </summary>
 
 | Keyboard Shorcuts                            | Description               |
@@ -122,6 +126,20 @@ Mainly used for refactoring and documentation
 
 </details>
 
+<details>
+<summary>
+<strong>Nav Menus Top Right</strong>
+</summary>
+
+| Keyboard Shorcuts                            | Description               |
+| -------------------------------------------- | ------------------------- |
+| <kbd>OPT</kbd>+<kbd>F1</kbd>                 | Make Modules              |
+| <kbd>OPT</kbd>+<kbd>F2</kbd>                 | Attach Debugger to Android Process |
+| <kbd>OPT</kbd>+<kbd>F3</kbd>                 | Sync Project With Gradle Files              |
+
+
+
+</details>
 
 <details>
 <summary>
@@ -130,14 +148,13 @@ Mainly used for refactoring and documentation
 
 | Keyboard Shorcuts                            | Description                 |
 | -------------------------------------------- | --------------------------- |
-| <kbd>CMD</kbd>+<kbd>D</kbd>                  | Debug Context Configuration |
-| <kbd>CMD</kbd>+<kbd>D</kbd>                  | Toggle Breakpoint           |
+| <kbd>CMD</kbd>+<kbd>B</kbd>                  | Toggle Breakpoint           |
 | <kbd>CMD</kbd>+<kbd>K</kbd>                  | Resume/Pause Program        |
 | <kbd>CMD</kbd>+<kbd>L</kbd>                  | Step Into                   |
 | <kbd>CMD</kbd>+<kbd>H</kbd>                  | Step Out                    |
 | <kbd>CMD</kbd>+<kbd>J</kbd>                  | Step Over                   |
 | <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>S</kbd> | Stop                        |
-| <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>L</kbd> | Smart Step Into             |
+
 
 
 </details>
@@ -149,7 +166,7 @@ Mainly used for refactoring and documentation
 
 | Keyboard Shortcut                             | Description                        |
 | --------------------------------------------- | ---------------------------------- |
-| <kbd>OPT</kbd>+<kbd>E</kbd>                   | Tool Windows -> Problems           |
+| <kbd>OPT</kbd>+<kbd>P</kbd>                   | Tool Windows -> Problems           |
 | <kbd>]</kbd>+<kbd>E</kbd> (vim)               | Go To Error                        |
 | <kbd>[</kbd>+<kbd>SHIFT</kbd>+<kbd>E</kbd> (vim) | Go To Previous Error               |
 | <kbd>TAB</kbd>+<kbd>E</kbd>                   | Error Description                  |
@@ -184,12 +201,11 @@ Note : This are all vim keys binded using .ideavimrc
 
 | Keyboard Shortcut                             | Description                                  |
 | --------------------------------------------- | -------------------------------------------- |
-| <kbd>CMD</kbd>+<kbd>]</kbd>                   | Find Next / Move to Next Occurrence          |
-| <kbd>CMD</kbd>+<kbd>[</kbd>                   | Find Previous / Move to Previous Occurrence  |
-| <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>[</kbd>  | Unselect Occurrence                          |
-| <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>]</kbd>  | Add Selection for Next Occurrence            |
-| <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>\\</kbd> | Select All Occurrence                        |
-| <kbd>CMD</kbd>+<kbd>M</kbd>                   | Highlight Usages                             |
+| <kbd>CMD</kbd>+<kbd>G</kbd>                   | Find Next / Move to Next Occurrence          |
+| <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>G</kbd>  | Find Previous / Move to Previous Occurrence  |
+| <kbd>CMD</kbd>+<kbd>D</kbd>                   | Add Selection for Next Occurrence            |
+| <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>D</kbd>  | Unselect Occurrence                          |
+| <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>L</kbd>  | Select All Occurrence                        |
 
 </details>
 
@@ -201,14 +217,17 @@ Note : This are all vim keys binded using .ideavimrc
 
 | Keyboard Shortcut                                       | Description                    |
 | ------------------------------------------------------- | ------------------------------ |
-| <kbd>gd</kbd> (Vim)                                      | Go to Declaration or Usages    |
-| <kbd>gD</kbd> (Vim)                                      | Go to TypeDeclaration          |
-| <kbd>gu</kbd> (Vim)                                      | Find Usages                    |
-| <kbd>gi</kbd> (Vim)                                      | Go to Implementations          |
+| <kbd>gd</kbd> (Vim)                                     | Go to Declaration or Usages    |
+| <kbd>gD</kbd> (Vim)                                     | Go to TypeDeclaration          |
+| <kbd>gu</kbd> (Vim)                                     | Find Usages                    |
+| <kbd>gi</kbd> (Vim)                                     | Go to Implementations          |
 | <kbd>CMD</kbd>+<kbd>U</kbd>                             | Go to Super Method             |
 | <kbd>SHIFT</kbd>+<kbd>K</kbd> (Vim)                     | Quick Definition               |
 | <kbd>F1</kbd>                                           | Quick Documentation            |
-
+| <kbd>CMD</kbd>+<kbd>I</kbd>                             | Implementation Methods         |
+| <kbd>CMD</kbd>+<kbd>M</kbd>                             | Override Methods               |
+| <kbd>OPT</kbd>+<kbd>SHIFT</kbd>+<kbd>D</kbd>            | Select Available Devices       |
+| <kbd>OPT</kbd>+<kbd>SHIFT</kbd>+<kbd>E</kbd>            | Explain Code (Gemini)          |
 
 </details>
 
@@ -222,14 +241,17 @@ Note : This are all vim keys binded using .ideavimrc
 | Keyboard Shortcut                           | Description       |
 | ------------------------------------------- | ----------------- |
 | <kbd>CMD</kbd>+<kbd>F</kbd>                 | Find              |
-| <kbd>F4</kbd>                               | Replace           |
-| <kbd>SHIFT</kbd>+<kbd>4F</kbd>              | Replace in Files  |
 | <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>F</kbd>| Find in Files     |
+| <kbd>CMD</kbd>+<kbd>H</kbd>                 | Replace           |
+| <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>H</kbd>| Replace in Files  |
 | <kbd>SHIFT</kbd>+<kbd>SHIFT</kbd>           | Search Everywhere |
-| <kbd>CMD</kbd>+<kbd>T</kbd>                 | Go to Symbol      |
 | <kbd>CMD</kbd>+<kbd>P</kbd>                 | Go To File        |
-| <kbd>CMD</kbd>+<kbd>O</kbd>                 | Go To Class       |
-| <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>A</kbd>  | Go to Action    |
+| <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>P</kbd>| Run any Command   |
+| <kbd>CMD</kbd>+<kbd>O</kbd>                 | Go to Symbol      |
+| <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>O</kbd>| Go To Class       |
+| <kbd>OPT</kbd>+<kbd>A</kbd>                 | Go to Action      |
+| <kbd>CMD</kbd>+<kbd>T</kbd>                 | Go to Text        |
+| <kbd>OPT</kbd>+<kbd>T</kbd>                 | Go to Test        |
 
 </details>
 
@@ -260,8 +282,8 @@ Note : This are all vim keys binded using .ideavimrc
 #### Moving Up and Down
 | Keyboard Shortcut                            | Description         |
 | -------------------------------------------- | ------------------- |
-| <kbd>OPT</kbd>+<kbd>J</kbd>                  | Move Line Down      |
-| <kbd>OPT</kbd>+<kbd>K</kbd>                  | Move Line Up        |
+| <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>J</kbd> | Move Line Down      |
+| <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>K</kbd> | Move Line Up        |
 | <kbd>OPT</kbd>+<kbd>SHIFT</kbd>+<kbd>J</kbd> | Move Statement Down |
 | <kbd>OPT</kbd>+<kbd>SHIFT</kbd>+<kbd>K</kbd> | Move Statement Up   |
 
@@ -280,6 +302,19 @@ Note : This are all vim keys binded using .ideavimrc
 | <kbd>CTRL</kbd>+<kbd>J</kbd>             | Move Down Pane     |
 | <kbd>CTRL</kbd>+<kbd>K</kbd>             | Move to Right Pane |
 | <kbd>CTRL</kbd>+<kbd>L</kbd>             | Move Up Pane       |
+
+</details>
+
+<details>
+<summary>
+<strong>Split Pane</strong>
+</summary>
+
+| Keyboard Shortcut                        | Description        |
+| ---------------------------------------- | ------------------ |
+| <kbd>s</kbd>+<kbd>p</kbd>                | Horizontal Split   |
+| <kbd>v</kbd>+<kbd>s</kbd>++<kbd>p</kbd>  | Vertical Split     |
+
 
 </details>
 
@@ -321,7 +356,7 @@ Note : This are all vim keys binded using .ideavimrc
 | <kbd>CMD</kbd>+<kbd>.</kbd>                   | Show Context and Show Quick Fixes    |
 | <kbd>CMD</kbd>+<kbd>SHIFTT</kbd>+<kbd>I</kbd> | Reformat Code                        |
 | <kbd>OPT</kbd>+<kbd>SPACE</kbd>               | Insert Live Template                 |
-| <kbd>CMD</kbd>+<kbd>OPT</kbd>+<kbd>S</kbd>    | Surround with                        |
+| <kbd>OPT</kbd>+<kbd>W</kbd>                   | Surround with                        |
 
 </details>
 
@@ -359,7 +394,6 @@ We can add custom bindings to our `~/.ideavimrc`
 ```sh
 nmap S <action>(AceWordStartAction)
 ```
-
 
 
 
