@@ -149,10 +149,10 @@ Mainly used for refactoring and documentation
 | Keyboard Shorcuts                            | Description                 |
 | -------------------------------------------- | --------------------------- |
 | <kbd>CMD</kbd>+<kbd>B</kbd>                  | Toggle Breakpoint           |
-| <kbd>CMD</kbd>+<kbd>K</kbd>                  | Resume/Pause Program        |
-| <kbd>CMD</kbd>+<kbd>L</kbd>                  | Step Into                   |
-| <kbd>CMD</kbd>+<kbd>H</kbd>                  | Step Out                    |
-| <kbd>CMD</kbd>+<kbd>J</kbd>                  | Step Over                   |
+| <kbd>OPT</kbd>+<kbd>K</kbd>                  | Resume/Pause Program        |
+| <kbd>OPT</kbd>+<kbd>L</kbd>                  | Step Into                   |
+| <kbd>OPT</kbd>+<kbd>H</kbd>                  | Step Out                    |
+| <kbd>OPT</kbd>+<kbd>J</kbd>                  | Step Over                   |
 | <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>S</kbd> | Stop                        |
 
 
