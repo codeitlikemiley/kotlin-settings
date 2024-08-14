@@ -115,7 +115,7 @@ Mainly used for refactoring and documentation
 
 <details>
 <summary>
-<strong>Runnert</strong>
+<strong>Runner</strong>
 </summary>
 
 | Keyboard Shorcuts                            | Description               |
