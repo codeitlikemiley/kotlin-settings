@@ -108,8 +108,20 @@ Mainly used for refactoring and documentation
 | <kbd>F3</kbd>  | Refactor this       |
 | <kbd>F4</kbd>  | Change Signature    |
 | <kbd>F5</kbd>  | Load Changes        |
-| <kbd>SHIFT</kbd>+<kbd>F1</kbd>               | SDK Manager                         |
-| <kbd>OPT</kbd>+<kbd>F2</kbd>                 | Project Structure                   |
+| <kbd>F11</kbd> | SDK Manager         |
+| <kbd>F10</kbd> | Project Structure   |
+
+</details>
+
+<details>
+<summary>
+<strong>Previews</strong>
+</summary>
+
+| Keyboard Shortcuts                           | Description                         |
+| <kbd>SHIFT</kbd>+<kbd>F1</kbd>               | Editor                              |
+| <kbd>SHIFT</kbd>+<kbd>F2</kbd>               | Editor and Preview                  |
+| <kbd>SHIFT</kbd>+<kbd>F3</kbd>               | Preview                             |
 
 </details>
 
