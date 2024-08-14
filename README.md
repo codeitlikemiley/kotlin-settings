@@ -52,7 +52,8 @@ Note: (Hide) CMD + H and (Minimize) CMD + M should be remapped using macos keybo
 | <kbd>CMD</kbd>+<kbd>F1</kbd>               | Project           |
 | <kbd>CMD</kbd>+<kbd>F2</kbd>               | Commit            |
 | <kbd>CMD</kbd>+<kbd>F3</kbd>               | Bookmarks         |
-| <kbd>CMD</kbd>+<kbd>F4</kbd>               | Structure         |
+| <kbd>CMD</kbd>+<kbd>F4</kbd>               | Resource Manager  |
+| <kbd>CMD</kbd>+<kbd>F5</kbd>               | Pull Request  |
 
 </details>
 
@@ -80,15 +81,16 @@ Note: (Hide) CMD + H and (Minimize) CMD + M should be remapped using macos keybo
 </summary>
 
 | Tool Window Keys (OPT+Keys) Leftsidebar Bottom | Description |
-| ---------------------------------------------- | ----------- |
-| <kbd>OPT</kbd>+<kbd>G</kbd>                    | Git         |
-| <kbd>OPT</kbd>+<kbd>B</kbd>                    | Build       |
-| <kbd>OPT</kbd>+<kbd>S</kbd>                    | Services    |
-| <kbd>OPT</kbd>+<kbd>E</kbd>                    | Problems    |
-| <kbd>OPT</kbd>+<kbd>D</kbd>                    | Debug       |
-| <kbd>OPT</kbd>+<kbd>F</kbd>                    | Find        |
-| <kbd>OPT</kbd>+<kbd>R</kbd>                    | Run         |
-| <kbd>CMD</kbd>+<kbd>Y</kbd>                    | Logcat      |
+| ---------------------------------------------- | ------------------------------ |
+| <kbd>OPT</kbd>+<kbd>G</kbd>                    | Git                            |
+| <kbd>OPT</kbd>+<kbd>B</kbd>                    | Build                          |
+| <kbd>OPT</kbd>+<kbd>S</kbd>                    | Services                       |
+| <kbd>OPT</kbd>+<kbd>E</kbd>                    | Problems                       |
+| <kbd>OPT</kbd>+<kbd>D</kbd>                    | Debug                          |
+| <kbd>OPT</kbd>+<kbd>F</kbd>                    | Find                           |
+| <kbd>OPT</kbd>+<kbd>R</kbd>                    | Run                            |
+| <kbd>OPT</kbd>+<kbd>SHIFT</kbd>+<kbd>D</kbd>   | Select Available Devices       |
+
 
 </details>
 
@@ -104,7 +106,6 @@ Mainly used for refactoring and documentation
 | -------------- | ------------------- |
 | <kbd>F1</kbd>  | Quick Documentation |
 | <kbd>F2</kbd>  | Rename              |
-| <kbd>SHIFT</kbd>+<kbd>F2</kbd>  | Copilot Chat |
 | <kbd>F3</kbd>  | Refactor this       |
 | <kbd>F4</kbd>  | Change Signature    |
 | <kbd>F5</kbd>  | Load Changes    |
@@ -121,8 +122,15 @@ Mainly used for refactoring and documentation
 | -------------------------------------------- | ------------------------- |
 | <kbd>CMD</kbd>+<kbd>R</kbd>                  | Run Context Configuration |
 | <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>R</kbd> | Run                       |
+| <kbd>CMD</kbd>+<kbd>T</kbd>                  | External Tools            |
 
 
+Note: External Tools Command Available depends on what you configure on my machine i have the ff:
+
+- Kotlinc
+- Java Run
+
+Et. al.
 
 </details>
 
@@ -131,11 +139,11 @@ Mainly used for refactoring and documentation
 <strong>Nav Menus Top Right</strong>
 </summary>
 
-| Keyboard Shorcuts                            | Description               |
-| -------------------------------------------- | ------------------------- |
-| <kbd>OPT</kbd>+<kbd>F1</kbd>                 | Make Modules              |
-| <kbd>OPT</kbd>+<kbd>F2</kbd>                 | Attach Debugger to Android Process |
-| <kbd>OPT</kbd>+<kbd>F3</kbd>                 | Sync Project With Gradle Files              |
+| Keyboard Shorcuts                            | Description                         |
+| -------------------------------------------- | ----------------------------------- |
+| <kbd>OPT</kbd>+<kbd>F1</kbd>                 | Make Modules                        |
+| <kbd>OPT</kbd>+<kbd>F2</kbd>                 | Attach Debugger to Android Process  |
+| <kbd>OPT</kbd>+<kbd>F3</kbd>                 | Sync Project With Gradle Files      |
 
 
 
@@ -167,6 +175,7 @@ Mainly used for refactoring and documentation
 | Keyboard Shortcut                             | Description                        |
 | --------------------------------------------- | ---------------------------------- |
 | <kbd>OPT</kbd>+<kbd>P</kbd>                   | Tool Windows -> Problems           |
+| <kbd>OPT</kbd>+<kbd>SHIFT</kbd>+<kbd>I</kbd>  | Inspect Code with Editor Settings  |
 | <kbd>]</kbd>+<kbd>E</kbd> (vim)               | Go To Error                        |
 | <kbd>[</kbd>+<kbd>E</kbd> (vim)               | Go To Previous Error               |
 | <kbd>TAB</kbd>+<kbd>E</kbd>                   | Error Description                  |
@@ -209,142 +218,19 @@ Note : This are all vim keys binded using .ideavimrc
 
 </details>
 
-
 <details>
 <summary>
-<strong>GoTo</strong>
+<strong>Code Completions</strong>
 </summary>
 
-| Keyboard Shortcut                                       | Description                    |
-| ------------------------------------------------------- | ------------------------------ |
-| <kbd>gd</kbd> (Vim)                                     | Go to Declaration or Usages    |
-| <kbd>gD</kbd> (Vim)                                     | Go to TypeDeclaration          |
-| <kbd>gu</kbd> (Vim)                                     | Find Usages                    |
-| <kbd>gi</kbd> (Vim)                                     | Go to Implementations          |
-| <kbd>CMD</kbd>+<kbd>U</kbd>                             | Go to Super Method             |
-| <kbd>SHIFT</kbd>+<kbd>K</kbd> (Vim)                     | Quick Definition               |
-| <kbd>F1</kbd>                                           | Quick Documentation            |
-| <kbd>CMD</kbd>+<kbd>I</kbd>                             | Implementation Methods         |
-| <kbd>CMD</kbd>+<kbd>M</kbd>                             | Override Methods               |
-| <kbd>OPT</kbd>+<kbd>SHIFT</kbd>+<kbd>D</kbd>            | Select Available Devices       |
-| <kbd>OPT</kbd>+<kbd>SHIFT</kbd>+<kbd>E</kbd>            | Explain Code (Gemini)          |
+| Keyboard Shortcut                             | Description                     |
+| --------------------------------------------- | ------------------------------- |
+| <kbd>OPT</kbd>+<kbd>/</kbd>                   | Cyclic Expand Word              |
+| <kbd>OPT</kbd>+<kbd>SHIFT</kbd>+<kbd>/</kbd>  | Cyclic Expand Backward          |
+| <kbd>OPT</kbd>+<kbd>Space</kbd>               | Basic                           |
+| <kbd>OPT</kbd>+<kbd>ENTER</kbd>               | Type Matching                   |
 
 </details>
-
-
-
-<details>
-<summary>
-<strong>All About Files Search, Opening</strong>
-</summary>
-
-| Keyboard Shortcut                           | Description       |
-| ------------------------------------------- | ----------------- |
-| <kbd>CMD</kbd>+<kbd>F</kbd>                 | Find              |
-| <kbd>CMD</kbd>+<kbd>E</kbd>                 | Recent Files      |
-| <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>F</kbd>| Find in Files     |
-| <kbd>CMD</kbd>+<kbd>H</kbd>                 | Replace           |
-| <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>H</kbd>| Replace in Files  |
-| <kbd>SHIFT</kbd>+<kbd>SHIFT</kbd>           | Search Everywhere |
-| <kbd>CMD</kbd>+<kbd>P</kbd>                 | Go To File        |
-| <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>P</kbd>| Run any Command   |
-| <kbd>CMD</kbd>+<kbd>O</kbd>                 | Go to Symbol      |
-| <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>O</kbd>| Go To Class       |
-| <kbd>OPT</kbd>+<kbd>A</kbd>                 | Go to Action      |
-| <kbd>CMD</kbd>+<kbd>T</kbd>                 | Go to Text        |
-| <kbd>OPT</kbd>+<kbd>T</kbd>                 | Go to Test        |
-| <kbd>CMD</kbd>+<kbd>[</kbd>                 | Back              |
-| <kbd>CMD</kbd>+<kbd>]</kbd>                 | Forward           |
-</details>
-
-
-<details>
-<summary>
-<strong>Bookmarks</strong>
-</summary>
-
-| Keyboard Shortcut                            | Description                    |
-| -------------------------------------------- | ------------------------------ |
-| <kbd>leader</kbd>+<kbd>[0-9]</kbd>           | Go to Bookmark by number       |
-| <kbd>leader</kbd>+<kbd>[a-z]</kbd>           | Go to Bookmark by letter       |
-| <kbd>'</kbd>+<kbd>[a-z]</kbd>                | Toggle Bookmark by lettes      |
-| <kbd>'</kbd>+<kbd>[0-9]</kbd>                | Toggle Bookmark by number      |
-
-</details>
-
-
-
-<details>
-<summary>
-<strong>Move Lines / Statements</strong>
-</summary>
-
-
-
-#### Moving Up and Down
-| Keyboard Shortcut                            | Description         |
-| -------------------------------------------- | ------------------- |
-| <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>J</kbd> | Move Line Down      |
-| <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>K</kbd> | Move Line Up        |
-| <kbd>OPT</kbd>+<kbd>SHIFT</kbd>+<kbd>J</kbd> | Move Statement Down |
-| <kbd>OPT</kbd>+<kbd>SHIFT</kbd>+<kbd>K</kbd> | Move Statement Up   |
-
-</details>
-
-
-
-<details>
-<summary>
-<strong>Moving Panes on Splits</strong>
-</summary>
-
-| Keyboard Shortcut                        | Description        |
-| ---------------------------------------- | ------------------ |
-| <kbd>CTRL</kbd>+<kbd>H</kbd>             | Move to Left Pane  |
-| <kbd>CTRL</kbd>+<kbd>J</kbd>             | Move Down Pane     |
-| <kbd>CTRL</kbd>+<kbd>K</kbd>             | Move to Right Pane |
-| <kbd>CTRL</kbd>+<kbd>L</kbd>             | Move Up Pane       |
-
-</details>
-
-<details>
-<summary>
-<strong>Split Panes</strong>
-</summary>
-
-| Keyboard Shortcut                        | Description        |
-| ---------------------------------------- | ------------------ |
-| <kbd>s</kbd>+<kbd>p</kbd>                | Horizontal Split   |
-| <kbd>v</kbd>+<kbd>s</kbd>++<kbd>p</kbd>  | Vertical Split     |
-
-
-</details>
-
-
-<details>
-<summary>
-<strong>Easy Tab Switching</strong>
-</summary>
-
-| Keyboard Shortcut                | Description       |
-| -------------------------------- | ----------------- |
-| <kbd>CMD</kbd>+<kbd>[1-9]</kbd>  | Select Tab [1-9]  |
-
-</details>
-
-
-<details>
-<summary>
-<strong>Code Folding</strong>
-</summary>
-
-| Keyboard Shortcut                              | Description                    |
-| ---------------------------------------------- | -------------------------------|
-| <kbd>CMD</kbd>+<kbd>\\</kbd>                   | FoldSelection / Remove Region  |
-
-
-</details>
-
 
 <details>
 <summary>
@@ -365,8 +251,211 @@ Note : This are all vim keys binded using .ideavimrc
 </details>
 
 
+<details>
+<summary>
+<strong>GoTo</strong>
+</summary>
+
+| Keyboard Shortcut                                       | Description                    |
+| ------------------------------------------------------- | ------------------------------ |
+| <kbd>gd</kbd> (Vim)                                     | Go to Declaration or Usages    |
+| <kbd>gD</kbd> (Vim)                                     | Go to TypeDeclaration          |
+| <kbd>gu</kbd> (Vim)                                     | Find Usages                    |
+| <kbd>gi</kbd> (Vim)                                     | Go to Implementations          |
+| <kbd>CMD</kbd>+<kbd>U</kbd>                             | Go to Super Method             |
+| <kbd>SHIFT</kbd>+<kbd>K</kbd> (Vim)                     | Quick Definition               |
+| <kbd>F1</kbd>                                           | Quick Documentation            |
+
+</details>
+
+<details>
+<summary>
+<strong>AI Assistant</strong>
+</summary>
+
+| Keyboard Shortcut                                       | Description                    |
+| ------------------------------------------------------- | ------------------------------ |
+| <kbd>OPT</kbd>+<kbd>SHIFT</kbd>+<kbd>E</kbd>            | Explain Code (Gemini)          |
+| <kbd>SHIFT</kbd>+<kbd>F2</kbd>                          | Copilot Chat                   |
+
+</details>
+
+<details>
+<summary>
+<strong>Finders</strong>
+</summary>
+
+| Keyboard Shortcut                           | Description       |
+| ------------------------------------------- | ----------------- |
+| <kbd>CMD</kbd>+<kbd>F</kbd>                 | Find              |
+| <kbd>CMD</kbd>+<kbd>E</kbd>                 | Recent Files      |
+| <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>F</kbd>| Find in Files     |
+| <kbd>CMD</kbd>+<kbd>H</kbd>                 | Replace           |
+| <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>H</kbd>| Replace in Files  |
+| <kbd>SHIFT</kbd>+<kbd>SHIFT</kbd>           | Search Everywhere |
+| <kbd>CMD</kbd>+<kbd>P</kbd>                 | Go To File        |
+| <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>P</kbd>| Run any Command   |
+| <kbd>CMD</kbd>+<kbd>O</kbd>                 | Go to Symbol      |
+| <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>O</kbd>| Go To Class       |
+| <kbd>OPT</kbd>+<kbd>A</kbd>                 | Go to Action      |
+| <kbd>OPT</kbd>+<kbd>T</kbd>                 | Go to Test        |
+| <kbd>CMD</kbd>+<kbd>Y</kbd>                 | File Structure    |
+
+</details>
 
 
+<details>
+<summary>
+<strong>Bookmarks</strong>
+</summary>
+
+| Keyboard Shortcut                            | Description                    |
+| -------------------------------------------- | ------------------------------ |
+| <kbd>leader</kbd>+<kbd>[0-9]</kbd>           | Go to Bookmark by number       |
+| <kbd>leader</kbd>+<kbd>[a-z]</kbd>           | Go to Bookmark by letter       |
+| <kbd>'</kbd>+<kbd>[a-z]</kbd>                | Toggle Bookmark by lettes      |
+| <kbd>'</kbd>+<kbd>[0-9]</kbd>                | Toggle Bookmark by number      |
+
+</details>
+
+<details>
+<summary>
+<strong>Code Selections</strong>
+</summary>
+
+| Keyboard Shortcut                            | Description                |
+| -------------------------------------------- | -------------------------- |
+| <kbd>OPT</kbd>+<kbd>DOWN</kbd>               | Shrink Selection           |
+| <kbd>OPT</kbd>+<kbd>UP</kbd>                 | Expand Selection           |
+
+</details>
+
+
+<details>
+<summary>
+<strong>Move Statements</strong>
+</summary>
+
+| Keyboard Shortcut                            | Description                |
+| -------------------------------------------- | -------------------------- |
+| <kbd>OPT</kbd>+<kbd>SHIFT</kbd>+<kbd>J</kbd> | Move Statement Down        |
+| <kbd>OPT</kbd>+<kbd>SHIFT</kbd>+<kbd>K</kbd> | Move Statement Up          |
+
+</details>
+
+
+<details>
+<summary>
+<strong>Move Lines</strong>
+</summary>
+
+| Keyboard Shortcut                            | Description         |
+| -------------------------------------------- | ------------------- |
+| <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>J</kbd> | Move Line Down      |
+| <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>K</kbd> | Move Line Up        |
+
+</details>
+
+
+<details>
+<summary>
+<strong>Split Panes</strong>
+</summary>
+
+| Keyboard Shortcut                        | Description        |
+| ---------------------------------------- | ------------------ |
+| <kbd>s</kbd>+<kbd>p</kbd>                | Horizontal Split   |
+| <kbd>v</kbd>+<kbd>s</kbd>++<kbd>p</kbd>  | Vertical Split     |
+
+</details>
+
+
+<details>
+<summary>
+<strong>Moving Across Panes</strong>
+</summary>
+
+| Keyboard Shortcut                        | Description        |
+| ---------------------------------------- | ------------------ |
+| <kbd>CTRL</kbd>+<kbd>H</kbd>             | Move to Left Pane  |
+| <kbd>CTRL</kbd>+<kbd>J</kbd>             | Move Down Pane     |
+| <kbd>CTRL</kbd>+<kbd>K</kbd>             | Move to Right Pane |
+| <kbd>CTRL</kbd>+<kbd>L</kbd>             | Move Up Pane       |
+
+</details>
+
+
+<details>
+<summary>
+<strong>Tab Switching</strong>
+</summary>
+
+| Keyboard Shortcut                | Description          |
+| -------------------------------- | ---------------------|
+| <kbd>CMD</kbd>+<kbd>[1-9]</kbd>  | Select Tab [1-9]     |
+| <kbd>CMD</kbd>+<kbd>[</kbd>      | Select Previous Tab  |
+| <kbd>CMD</kbd>+<kbd>]</kbd>      | Select Next Tab      |
+| <kbd>TAB</kbd>+<kbd>[</kbd>      | Navigate Tab Back    |
+| <kbd>TAB</kbd>+<kbd>]</kbd>      | Navigate Tab Forward |
+
+</details>
+
+
+<details>
+<summary>
+<strong>Comments</strong>
+</summary>
+
+| Keyboard Shortcut                              | Description                |
+| ---------------------------------------------- | -------------------------- |
+| <kbd>CMD</kbd>+<kbd>/</kbd>                    | Comment with Line Comment  |
+| <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>/</kbd>   | Comment with Block Comment |
+
+</details>
+
+<details>
+<summary>
+<strong>Code Folding</strong>
+</summary>
+
+| Keyboard Shortcut                              | Description                |
+| ---------------------------------------------- | -------------------------- |
+| <kbd>CMD</kbd>+<kbd>(-)</kbd>                  | Folding Collapse           |
+| <kbd>CMD</kbd>+<kbd>(+)</kbd>                  | Folding Expand             |
+| <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>(-)</kbd> | Collapse All               |
+| <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>(+)</kbd> | Expand All                 |
+
+</details>
+
+
+<details>
+<summary>
+<strong>File Manipulation</strong>
+</summary>
+
+| Shortcut Keys                                  | Description       |
+| ---------------------------------------------- | ----------------- |
+| <kbd>CMD</kbd>+<kbd>N</kbd>                    | New               |
+| <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>N</kbd>   | New Directory     |
+
+Note: New has Different ways to create Files including Directory
+
+</details>
+
+<details>
+<summary>
+<strong>File Editing</strong>
+</summary>
+
+| Shortcut Keys                                 | Description |
+| --------------------------------------------- | ----------- |
+| <kbd>CMD</kbd>+<kbd>S</kbd>                   | Save all    |
+| <kbd>CMD</kbd>+<kbd>X</kbd>                   | Cut         |
+| <kbd>CMD</kbd>+<kbd>V</kbd>                   | Paste       |
+| <kbd>CMD</kbd>+<kbd>Z</kbd>                   | Undo        |
+| <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>Z</kbd>  | Redo        |
+
+</details>
 
 
 <details>
@@ -381,22 +470,61 @@ Note : This are all vim keys binded using .ideavimrc
 
 </details>
 
-
 <details>
 <summary>
-<strong>Git</strong>
+<strong>Context Menus</strong>
 </summary>
 
-| Keyboard Shortcut                             | Description                  |
-| --------------------------------------------- | ---------------------------- |
-| <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>A</kbd>  | Add to VCS                   |
-| <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>U</kbd>  | Rollback                     |
-| <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>Y</kbd>  | Show History                 |
-| <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>M</kbd>  | Move to Another Changelist   |
+| Keyboard Shortcut                             | Description          |
+| --------------------------------------------- | -------------------- |
+| <kbd>OPT</kbd>+<kbd>SHIFT</kbd>+<kbd>C</kbd>  | Show Color Picker    |
+| <kbd>SHIFT</kbd>+<kbd>F1</kbd>                | Show Context Menu    |
 
 </details>
 
 
+<details>
+<summary>
+<strong>VCS</strong>
+</summary>
+
+| Keyboard Shortcut                             | Description               |
+| --------------------------------------------- | ------------------------- |
+| <kbd>OPT</kbd>+<kbd>A</kbd>                   | Amend                     |
+| <kbd>OPT</kbd>+<kbd>C</kbd>                   | Commit File               |
+| <kbd>OPT</kbd>+<kbd>SHIFT</kbd>+<kbd>A</kbd>  | Add to .gitignore         |
+| <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>A</kbd>  | Add to VCS                |
+| <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>U</kbd>  | Rollback                  |
+| <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>M</kbd>  | Move to other Changelist  |
+
+</details>
+
+<details>
+<summary>
+<strong>Git History</strong>
+</summary>
+
+| Keyboard Shortcut                             | Description               |
+| --------------------------------------------- | ------------------------- |
+| <kbd>OPT</kbd>+<kbd>SHIFT</kbd>+<kbd>R</kbd>  | Compare with Revisions    |
+| <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>Y</kbd>  | Show History / Diff       |
+| <kbd>CMD</kbd>+<kbd>J</kbd>                   | Next Difference           |
+| <kbd>CMD</kbd>+<kbd>K</kbd>                   | Previous Difference       |
+
+</details>
+
+
+<details>
+<summary>
+<strong>Linear Tasks</strong>
+</summary>
+
+| Linear Keys                                   | Description    |
+| --------------------------------------------- | -------------- |
+| <kbd>CMD</kbd>+<kbd>\\</kbd>                  | Open Tasks     |
+| <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>\\</kbd> | Switch Tasks   |
+
+</details>
 
 ## Customizing IdeaVim Keys
 
