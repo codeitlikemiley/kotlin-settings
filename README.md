@@ -70,7 +70,6 @@ Note: (Hide) CMD + H and (Minimize) CMD + M should be remapped using macos keybo
 | <kbd>CMD</kbd>+<kbd>F10</kbd>               | Key Promoter X                   |
 | <kbd>CMD</kbd>+<kbd>F9</kbd>                | Device Manager                   |
 | <kbd>CMD</kbd>+<kbd>F8</kbd>                | Running Devices                  |
-| <kbd>CMD</kbd>+<kbd>F7</kbd>                | Device Explorer                  |
 
 </details>
 
