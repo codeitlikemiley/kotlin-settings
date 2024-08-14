@@ -532,7 +532,7 @@ nmap S <action>(AceWordStartAction)
 
 
 ## Note:
-No Configuration about Copilot and Gemini Here (NO AI INTEGRATION)
+AI Assistant like Gemini and Copilot is not added here. 
 
 
 
