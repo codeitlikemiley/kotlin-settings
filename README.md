@@ -85,7 +85,8 @@ Note: (Hide) CMD + H and (Minimize) CMD + M should be remapped using macos keybo
 | <kbd>OPT</kbd>+<kbd>G</kbd>                    | Git                            |
 | <kbd>OPT</kbd>+<kbd>B</kbd>                    | Build                          |
 | <kbd>OPT</kbd>+<kbd>S</kbd>                    | Services                       |
-| <kbd>OPT</kbd>+<kbd>E</kbd>                    | Problems                       |
+| <kbd>OPT</kbd>+<kbd>P</kbd>                    | Problems                       |
+| <kbd>OPT</kbd>+<kbd>E</kbd>                    | Log Cat                        |
 | <kbd>OPT</kbd>+<kbd>D</kbd>                    | Debug                          |
 | <kbd>OPT</kbd>+<kbd>F</kbd>                    | Find                           |
 | <kbd>OPT</kbd>+<kbd>R</kbd>                    | Run                            |
