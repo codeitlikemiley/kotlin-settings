@@ -119,6 +119,7 @@ Mainly used for refactoring and documentation
 </summary>
 
 | Keyboard Shortcuts                           | Description                         |
+| -------------------------------------------- | ----------------------------------- |
 | <kbd>SHIFT</kbd>+<kbd>F1</kbd>               | Editor                              |
 | <kbd>SHIFT</kbd>+<kbd>F2</kbd>               | Editor and Preview                  |
 | <kbd>SHIFT</kbd>+<kbd>F3</kbd>               | Preview                             |
