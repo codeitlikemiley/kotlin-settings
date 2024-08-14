@@ -53,7 +53,7 @@ Note: (Hide) CMD + H and (Minimize) CMD + M should be remapped using macos keybo
 | <kbd>CMD</kbd>+<kbd>F2</kbd>               | Commit            |
 | <kbd>CMD</kbd>+<kbd>F3</kbd>               | Bookmarks         |
 | <kbd>CMD</kbd>+<kbd>F4</kbd>               | Resource Manager  |
-| <kbd>CMD</kbd>+<kbd>F5</kbd>               | Pull Request  |
+| <kbd>CMD</kbd>+<kbd>F5</kbd>               | Pull Request      |
 
 </details>
 
@@ -89,8 +89,6 @@ Note: (Hide) CMD + H and (Minimize) CMD + M should be remapped using macos keybo
 | <kbd>OPT</kbd>+<kbd>D</kbd>                    | Debug                          |
 | <kbd>OPT</kbd>+<kbd>F</kbd>                    | Find                           |
 | <kbd>OPT</kbd>+<kbd>R</kbd>                    | Run                            |
-| <kbd>OPT</kbd>+<kbd>SHIFT</kbd>+<kbd>D</kbd>   | Select Available Devices       |
-
 
 </details>
 
@@ -108,14 +106,15 @@ Mainly used for refactoring and documentation
 | <kbd>F2</kbd>  | Rename              |
 | <kbd>F3</kbd>  | Refactor this       |
 | <kbd>F4</kbd>  | Change Signature    |
-| <kbd>F5</kbd>  | Load Changes    |
-
+| <kbd>F5</kbd>  | Load Changes        |
+| <kbd>SHIFT</kbd>+<kbd>F1</kbd>               | SDK Manager                         |
+| <kbd>OPT</kbd>+<kbd>F2</kbd>                 | Project Structure                   |
 
 </details>
 
 <details>
 <summary>
-<strong>Run App/Test</strong>
+<strong>Runnert</strong>
 </summary>
 
 | Keyboard Shorcuts                            | Description               |
@@ -136,7 +135,7 @@ Et. al.
 
 <details>
 <summary>
-<strong>Nav Menus Top Right</strong>
+<strong>Nav Menus Top Right (Hidden on IntelliJ)</strong>
 </summary>
 
 | Keyboard Shorcuts                            | Description                         |
@@ -144,8 +143,6 @@ Et. al.
 | <kbd>OPT</kbd>+<kbd>F1</kbd>                 | Make Modules                        |
 | <kbd>OPT</kbd>+<kbd>F2</kbd>                 | Attach Debugger to Android Process  |
 | <kbd>OPT</kbd>+<kbd>F3</kbd>                 | Sync Project With Gradle Files      |
-
-
 
 </details>
 
@@ -268,17 +265,6 @@ Note : This are all vim keys binded using .ideavimrc
 
 </details>
 
-<details>
-<summary>
-<strong>AI Assistant</strong>
-</summary>
-
-| Keyboard Shortcut                                       | Description                    |
-| ------------------------------------------------------- | ------------------------------ |
-| <kbd>OPT</kbd>+<kbd>SHIFT</kbd>+<kbd>E</kbd>            | Explain Code (Gemini)          |
-| <kbd>SHIFT</kbd>+<kbd>F2</kbd>                          | Copilot Chat                   |
-
-</details>
 
 <details>
 <summary>
@@ -475,10 +461,11 @@ Note: New has Different ways to create Files including Directory
 <strong>Context Menus</strong>
 </summary>
 
-| Keyboard Shortcut                             | Description          |
-| --------------------------------------------- | -------------------- |
-| <kbd>OPT</kbd>+<kbd>SHIFT</kbd>+<kbd>C</kbd>  | Show Color Picker    |
-| <kbd>SHIFT</kbd>+<kbd>F1</kbd>                | Show Context Menu    |
+| Keyboard Shortcut                             | Description                    |
+| --------------------------------------------- | ------------------------------ |
+| <kbd>OPT</kbd>+<kbd>SHIFT</kbd>+<kbd>C</kbd>  | Show Color Picker              |
+| <kbd>CMD</kbd>+<kbd>M</kbd>                   | Show Context Menu              |
+| <kbd>OPT</kbd>+<kbd>SHIFT</kbd>+<kbd>D</kbd>  | Select Available Devices       |
 
 </details>
 
@@ -528,7 +515,7 @@ Note: New has Different ways to create Files including Directory
 
 ## Customizing IdeaVim Keys
 
-1. Press <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>A</kbd>
+1. Press <kbd>SHIFT</kbd>+<kbd>SPACE</kbd>
 
 2. Select
 
@@ -543,7 +530,8 @@ nmap S <action>(AceWordStartAction)
 ```
 
 
-
+## Note:
+No Configuration about Copilot and Gemini Here (NO AI INTEGRATION)
 
 
 
